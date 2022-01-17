@@ -1,4 +1,5 @@
 import { Dispatch, SetStateAction, useEffect, useState } from 'react'
+
 import useEventListener from './useEventListener'
 
 type SetValue<T> = Dispatch<SetStateAction<T>>
